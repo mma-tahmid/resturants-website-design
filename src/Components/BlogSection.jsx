@@ -1,11 +1,11 @@
 
-
 const BlogSection = () => {
+
 
     return (
 
         <>
-            This is a blog section
+
 
         </>
     );

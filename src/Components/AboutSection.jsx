@@ -1,7 +1,31 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import { FaMedal } from 'react-icons/fa';
+import { FiShoppingBag } from "react-icons/fi";
+import { FiPackage } from "react-icons/fi";
+
 const AboutSection = () => {
+
+    const features = [
+        {
+            icon: <FiPackage className="text-[#BD1F17] w-8 h-8" />,
+            title: "Fast Delivery",
+            description: "Within 30 minutes",
+
+        },
+        {
+            icon: <FaMedal className="text-[#BD1F17] w-8 h-8" />,
+            title: "Absolute Dining",
+            description: "Best buffet restaurant",
+        },
+        {
+            icon: <FiShoppingBag className="text-[#BD1F17] w-8 h-8" />,
+            title: "Pickup Delivery",
+            description: "Grab your food order",
+
+        },
+    ];
 
 
     return (
@@ -20,7 +44,7 @@ const AboutSection = () => {
 
                         {/* // 2nd Part */}
 
-                        <div>
+                        <div className=''>
 
 
                             <div className='flex md:pt-0 pt-6 gap-x-8 border-b-2 border-[#B52B1D]  '>
@@ -64,6 +88,25 @@ const AboutSection = () => {
                         </div>
 
                     </div>
+                </div>
+
+
+                <div className="flex justify-center space-x-10">
+                    {features.map((feature, index) => (
+                        <div
+                            key={index}
+                            className="flex items-center gap-x-4 text-center bg-white  p-6"
+                        >
+                            <div className="bg-white rounded-full p-5 shadow-lg mb-3">
+                                {feature.icon}
+                            </div>
+
+                            <div>
+                                <h3 className="uppercase text-3xl text-[#0A1425] font-['Bebas Neue'] text-[#0A1425] font-[700]">{feature.title}</h3>
+                                <p className="text-xl font-['Roboto'] text-left font-[400] text[#0A1425]">{feature.description}</p>
+                            </div>
+                        </div>
+                    ))}
                 </div>
 
             </div>

@@ -18,8 +18,8 @@ const NavBar = () => {
 
         <>
             <div className=" sticky top-0 z-10 md:z-20 container bg-[url('/src/assets/rectangle.png')] max-w-[1536px] bg-[#B52B1D] bg-no-repeat ">
-                {/* max-w-screen-lg = max-w-[1024px] */}
-                <div className=' mx-auto max-w-[1240px] py-[35px]  '>
+                {/* max-w-screen-lg = max-w-[1024px] py-[35px] */}
+                <div className=' mx-auto max-w-[1240px] py-[18px]  '>
 
                     <div className="flex justify-between items-center  p-3">
 

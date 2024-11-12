@@ -5,3 +5,31 @@
 html {
     scroll-behavior: smooth;
 }
+
+.slick-slide > div{
+    margin: 0 10px;
+}
+
+
+.slick-prev:before{
+    color: red !important;
+  
+}
+
+.slick-next:before{
+    color: red !important;
+    
+}
+.slick-arrow:before {
+    color: blue !important;
+}
+
+/* .slick-prev{
+    top: -60px !important ; 
+    left: 1170px !important;
+} */
+
+.slick-next{
+    top: -60px;
+    right: 26px;
+}
