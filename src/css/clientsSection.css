@@ -1,0 +1,11 @@
+.clients-book::before{
+content: "";
+display: flex;
+align-items: center;
+width: 10px;
+height: 10px;
+background: #BD1F17;
+position: absolute;
+left: 0.5%;
+top: 36%
+}
