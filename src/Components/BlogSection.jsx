@@ -15,19 +15,21 @@ const BlogSection = () => {
                 <h2 className="text-red-600 text-lg font-semibold mb-2">Crispy, Every Bite Taste</h2>
                 <h1 className="text-3xl md:text-4xl font-bold mb-8">WHAT SOME OF MY CUSTOMERS SAY</h1>
 
-                <div className="flex flex-col md:flex-row border border-blue-500 rounded-lg overflow-hidden shadow-lg">
+                <div className="flex flex-col gap-y-14 md:flex-row border  rounded-lg overflow-hidden shadow-lg">
 
+                    <div className='bg-yellow-400'>
 
-                    <div className="bg-yellow-400  p-8 w-[40%] ">
-                        <FaQuoteLeft className="text-3xl mb-4 text-gray-800" />
-                        <p className=" w-[400px] h-[123px]  text-gray-800 text-lg mb-4">
-                            You cant go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly,
-                            juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.
-                        </p>
-                        <div className="flex items-center mt-4">
-                            <div>
-                                <p className="font-semibold">KHALID AL DAWSRY</p>
-                                <p className="text-sm text-gray-600">Jeddah, Saudi</p>
+                        <div className="  p-8  md:w-[40%] ">
+                            <FaQuoteLeft className="text-3xl mb-4 text-gray-800" />
+                            <p className=" w-[350px] md:w-[400px] h-[123px]  text-gray-800 text-lg mb-4">
+                                You cant go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly,
+                                juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.
+                            </p>
+                            <div className="flex items-center mt-4">
+                                <div>
+                                    <p className="font-semibold">KHALID AL DAWSRY</p>
+                                    <p className="text-sm text-gray-600">Jeddah, Saudi</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -35,8 +37,8 @@ const BlogSection = () => {
 
                     {/* 2nd Content */}
 
-                    <div className="md:w-[60%]">
-                        <iframe
+                    <div className=" w-[full] md:w-[60%]">
+                        <iframe 
                             // width="100%"
                             // height="100%"
                             width="900"

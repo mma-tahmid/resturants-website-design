@@ -7,7 +7,7 @@ const ClientsSection = () => {
     return (
 
         <>
-            <div className="container object-cover bg-[url('/src/assets/bg_image_clients.png')] bg-cover bg-top max-w-[1536px] bg-no-repeat h-[788px] ">
+            <div className="container object-cover bg-[url('/src/assets/bg_image_clients.png')] bg-cover bg-top max-w-[1536px] bg-no-repeat ] ">
 
 
                 <div className='  mx-auto max-w-[1240px] py-[90px] px-3'>
@@ -17,11 +17,11 @@ const ClientsSection = () => {
                         <h6 className=" clients-book px-6 relative font-['Roboto] text-[20px] font-[700] text-[#BD1F17]">Book Now</h6>
 
 
-                        <h2 className="text-white font-['Bebas Neue'] text-[62px] font-[700] text-left mt-[16px] ">Book Your Table</h2>
+                        <h2 className="text-white font-['Bebas Neue'] text-[50px] sm:text-[62px] font-[700] text-left mt-[16px] ">Book Your Table</h2>
 
-                        <p className="mt-[16px] font-['Roboto'] text-[16px] font-[400] text-left text-[#F7F8F9] w-[545px]  ">Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo molestie vel, ornare non id blandit netus.</p>
+                        <p className="mt-[16px] font-['Roboto'] text-[16px] font-[400] text-left text-[#F7F8F9] sm:w-[545px] w-[400px]  ">Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo molestie vel, ornare non id blandit netus.</p>
 
-                        <form action="" className=" mt-[40px] grid grid-cols-2 gap-x-[20px] gap-y-[24px] p-3" >
+                        <form action="" className=" mt-[40px] grid grid-cols-1 sm:grid-cols-2 gap-x-[10px] gap-y-[24px] p-3">
 
 
                             <div>

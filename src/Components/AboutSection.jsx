@@ -91,7 +91,7 @@ const AboutSection = () => {
                 </div>
 
 
-                <div className="flex justify-center space-x-10">
+                <div className="flex flex-col items-center sm:flex-row justify-center sm:space-x-10">
                     {features.map((feature, index) => (
                         <div
                             key={index}

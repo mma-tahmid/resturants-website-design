@@ -81,11 +81,11 @@ const NavBar = () => {
 
 
                 {/* Mobile Menu */}
-                
-                
-                
-                
-                
+
+
+
+
+
 
                 {
                     isMenuOpen ?
