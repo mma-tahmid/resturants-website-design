@@ -20,16 +20,19 @@ html {
     color: red !important;
     
 }
+
 .slick-arrow:before {
-    color: blue !important;
+    color: #BD1F17 !important;
+   
+
 }
 
-/* .slick-prev{
-    top: -60px !important ; 
-    left: 1170px !important;
-} */
+.slick-prev{
+    top: -59px !important ; 
+    left: 1035px !important;
+}
 
 .slick-next{
-    top: -60px;
-    right: 26px;
+    top: -60px !important;
+    right: 26px !important;
 }

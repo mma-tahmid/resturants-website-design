@@ -63,7 +63,7 @@ const AboutSection = () => {
 
                             </div>
 
-                            <div className='w-[650px] pt-4 font-["Bebas Neue"] text-[45px] font-[700] uppercase'>
+                            <div className=' w-[400px] sm:w-[650px] pt-4 font-["Bebas Neue"] text:[45px] sm:text-[45px] font-[700] uppercase'>
                                 Exceptional culinary experience and delicious food
                             </div>
 

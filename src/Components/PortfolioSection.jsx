@@ -8,30 +8,37 @@ import "slick-carousel/slick/slick-theme.css";
 const PortfolioSection = () => {
 
     const foodItems = [
+
         { id: 1, name: 'Vegetables Burger', description: 'Barbecue Italian cuisine pizza', imageUrl: '/src/assets/burgers.png' },
+
         { id: 2, name: 'Special Pizza', description: 'Barbecue Italian cuisine pizza', imageUrl: '/src/assets/pizza.png' },
+
         { id: 3, name: 'Special French Fries', description: 'Barbecue Italian cuisine', imageUrl: '/src/assets/french_fry.png' },
+
         { id: 4, name: 'Cuisine Chicken', description: 'Japanese Cuisine Chicken', imageUrl: '/src/assets/chicken.png' },
+
     ];
 
 
     var settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 1,
 
         responsive: [
+
             {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 3,
                     infinite: true,
-                    dots: true
+                    dots: false
                 }
             },
+
             {
                 breakpoint: 600,
                 settings: {
@@ -49,6 +56,7 @@ const PortfolioSection = () => {
             }
         ]
     };
+
 
     return (
 

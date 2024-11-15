@@ -15,7 +15,7 @@ const BlogSection = () => {
                 <h2 className="text-red-600 text-lg font-semibold mb-2">Crispy, Every Bite Taste</h2>
                 <h1 className="text-3xl md:text-4xl font-bold mb-8">WHAT SOME OF MY CUSTOMERS SAY</h1>
 
-                <div className="flex flex-col gap-y-14 md:flex-row border  rounded-lg overflow-hidden shadow-lg">
+                <div className="flex  flex-col-reverse gap-y-14 md:flex-row border  rounded-lg overflow-hidden shadow-lg">
 
                     <div className='bg-yellow-400'>
 
@@ -28,7 +28,7 @@ const BlogSection = () => {
                             <div className="flex items-center mt-4">
                                 <div>
                                     <p className="font-semibold">KHALID AL DAWSRY</p>
-                                    <p className="text-sm text-gray-600">Jeddah, Saudi</p>
+                                    <p className="text-sm text-gray-600 pt-4">Jeddah, Saudi</p>
                                 </div>
                             </div>
                         </div>
@@ -37,12 +37,10 @@ const BlogSection = () => {
 
                     {/* 2nd Content */}
 
-                    <div className=" w-[full] md:w-[60%]">
-                        <iframe 
-                            // width="100%"
-                            // height="100%"
-                            width="900"
-                            height="365"
+                    <div className="  md:w-[60%]">
+                        <iframe className='aspect-video w-full h-full'
+                            // width="900"
+                            // height="365"
                             src="https://www.youtube.com/embed/XMTaDlHgNEo"
                             title="YouTube video player"
                             frameborder="0"

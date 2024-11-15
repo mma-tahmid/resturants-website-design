@@ -13,11 +13,11 @@ const NavBar = () => {
     }
 
 
-
+    // z-10 md:z-20
     return (
 
         <>
-            <div className=" sticky top-0 z-10 md:z-20 container bg-[url('/src/assets/rectangle.png')] max-w-[1536px] bg-[#B52B1D] bg-no-repeat ">
+            <div className="sticky top-0 z-[1000]  container bg-[url('/src/assets/rectangle.png')] max-w-[1536px] bg-[#B52B1D] bg-no-repeat ">
                 {/* max-w-screen-lg = max-w-[1024px] py-[35px] */}
                 <div className=' mx-auto max-w-[1240px] py-[18px]  '>
 
