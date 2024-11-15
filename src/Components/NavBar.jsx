@@ -26,7 +26,7 @@ const NavBar = () => {
                         <div className='flex items-center gap-x-[6px] h-[29px] w-[159px]'>
                             {/* Logo Name  */}
                             <div className=''>
-                                <Link to='/'> <img src="/src/assets/group.png" alt="logo" /> </Link>
+                                <Link to='/'> <img src="https://i.ibb.co.com/q5WgPsH/group.png" alt="logo" /> </Link>
                             </div>
                             <h4 className='font-["Poppins"] font-[400] text-[28.44px] leading-[28.44px]'>Restaurant</h4>
                         </div>

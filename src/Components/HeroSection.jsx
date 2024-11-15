@@ -34,7 +34,7 @@ const HeroSection = () => {
 
                         <div className='mt-6 w-[full]  md:w-1/2'>
 
-                            <img className=' md:pt-0 max-w-auto object-cover overflow-hidden' src="/src/assets/image1.png" alt="header_image" />
+                            <img className=' md:pt-0 max-w-auto object-cover overflow-hidden' src="https://i.ibb.co.com/714f9Pf/image1.png" alt="header_image" />
 
                         </div>
 

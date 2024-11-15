@@ -38,7 +38,7 @@ const AboutSection = () => {
                     <div className=' grid md:grid-cols-2 grid-cols-1 gap-x-[40px]'>
 
                         <div>
-                            <img className=' w-full h-full object-cover' src="/src/assets/burger.png" alt="" />
+                            <img className=' w-full h-full object-cover' src="https://i.ibb.co.com/jwHjL8z/burger.png" alt="" />
                         </div>
 
 

@@ -9,13 +9,13 @@ const PortfolioSection = () => {
 
     const foodItems = [
 
-        { id: 1, name: 'Vegetables Burger', description: 'Barbecue Italian cuisine pizza', imageUrl: '/src/assets/burgers.png' },
+        { id: 1, name: 'Vegetables Burger', description: 'Barbecue Italian cuisine pizza', imageUrl: 'https://i.ibb.co.com/64MHVwZ/burgers.png' },
 
-        { id: 2, name: 'Special Pizza', description: 'Barbecue Italian cuisine pizza', imageUrl: '/src/assets/pizza.png' },
+        { id: 2, name: 'Special Pizza', description: 'Barbecue Italian cuisine pizza', imageUrl: 'https://i.ibb.co.com/G3rpWps/pizza.png' },
 
-        { id: 3, name: 'Special French Fries', description: 'Barbecue Italian cuisine', imageUrl: '/src/assets/french_fry.png' },
+        { id: 3, name: 'Special French Fries', description: 'Barbecue Italian cuisine', imageUrl: 'https://i.ibb.co.com/1GDyMjS/french-fry.png' },
 
-        { id: 4, name: 'Cuisine Chicken', description: 'Japanese Cuisine Chicken', imageUrl: '/src/assets/chicken.png' },
+        { id: 4, name: 'Cuisine Chicken', description: 'Japanese Cuisine Chicken', imageUrl: 'https://i.ibb.co.com/bQgqNtT/chicken.png' },
 
     ];
 
